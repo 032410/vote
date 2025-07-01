@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+    <head>
+        <meta charset="UTF-9" />
+        <title>聊天室投票系統</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <style>
+            body{font-family: sans-serif; padding: 20px;}
+            #chartContainer{width:80%; max-width: 600px;margin-top: 30px;}
+        </style>
+    </head>
+    <body>
+        <h1>聊天室投票系統</h1>
+        <input type="text" id="questionInput" placeholder="請輸入投票問題"/>
+        <button onclick="startPoll()">開始投票</button>
+        <button onclick="endPoll()">結束投票</button>
+        <h2 id="pollQuestion"></h2>
+        <div id="chartContainer">
+            <canvas id="voteChart"></canvas>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
