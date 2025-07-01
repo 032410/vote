@@ -1,0 +1,13 @@
+{
+  "name": "twitch-vote",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0",
+    "tmi.js": "^1.8.5"
+  }
+}
