@@ -32,3 +32,7 @@ http://localhost:3000/obs.html
  - 資料庫記錄每次投票
  - 手機板介面優化
  - OBS 視覺效果更流暢與主題化
+ - 放進Twitch擴充功能
+
+---
+如果有興趣想使用、討論，我的DC名稱:yipianxiezi.
